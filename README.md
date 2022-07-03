@@ -7,8 +7,8 @@ You can see my whole portfolio [here](https://esgarsad.github.io/portfolio/).
 
 ## Notes about my porfolio
 
- My portfolio will be updated every week!
+ My portfolio will be updated every week! As long as I keep working on new projects
 
 
 
-![portfolio](https://github.com/esgarsad/my-portfolio/blob/main/assets/images/portfolio2.jpg?raw=true)
+![portfolio](https://github.com/esgarsad/portfolio/blob/main/src/assets/images/portfolio.jpg)
