@@ -110,7 +110,7 @@ p {
 }
 
 a {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 li {
@@ -189,7 +189,6 @@ li {
   width: 100%;
 }
 
-/* end default style to webpage AKA Mark Box */
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (min-width: 0px) {

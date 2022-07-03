@@ -1,5 +1,3 @@
-// import { SocialIcon } from 'react-social-icons';
-
 import './index.css';
 
 function Footer() {
@@ -10,13 +8,7 @@ function Footer() {
         <h5 className='col-10'>
           <span>&copy;</span> Edgar Web Designs, 2022
         </h5>
-        {/* <div id='icon-div' className='row'>
-          <div className='social-icons'>
-          <SocialIcon url='https://twitter.com/MarkGiannelli2' />
-          <SocialIcon url='https://github.com/mjgiannelli' />
-          <SocialIcon url='https://www.linkedin.com/in/mark-giannelli-mba-458585108/' />
-          </div> */}
-        {/* </div> */}
+     
       </div>
     </footer>
   )

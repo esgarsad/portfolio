@@ -1,6 +1,7 @@
 @media (min-width: 0px) {
 
     #resume-link-div {
+    
         justify-content: center;
       }
       
@@ -12,10 +13,16 @@
       }
       
       #skills-div {
+        border: 5px;
         justify-content: center;
       } 
+      .box {
+        border: 5px;
+        border-color: aquamarine;
+      }
       
       .skill {
+        
         text-decoration: none;
         font-size: 2rem;
         margin-bottom: .5rem;

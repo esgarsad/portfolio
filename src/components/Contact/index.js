@@ -7,20 +7,20 @@ const Contact = () => {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
-    const [response, setResponse] = useState(null);
+    const [response] = useState(null);
 
     const handleChange = e => {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
             if (!isValid) {
-                setErrorMessage('Your email is invalid.');
+                setErrorMessage('Please complete the form and then click submit button');
             } else {
                 setErrorMessage('');
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+                setErrorMessage(`Please complete the form and then click submit button`);
             } else {
                 setErrorMessage('');
             }
@@ -34,11 +34,6 @@ const Contact = () => {
     const handleSubmit = e => {
         e.preventDefault();
 
-        const from_name = formState.name;
-        const message = formState.message;
-        const reply_to = formState.email;
-
-        const toSend = { from_name, message, reply_to };
 
         // reset input fields after submit
         Array.from(document.querySelectorAll("input")).forEach(

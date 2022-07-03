@@ -1,6 +1,11 @@
 
 @media (min-width: 0px) {
 
+.about {
+  justify-content: center;
+
+}
+
     #bio {
         margin: 3rem 0;
       }

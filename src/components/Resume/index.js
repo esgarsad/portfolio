@@ -11,10 +11,7 @@ const Resume = () => {
         {
             name: 'JavaScript'
         },
-        {
-            name: 'React'
-        },
-        {
+                {
             name: 'Node.js'
         },
         {
@@ -25,21 +22,35 @@ const Resume = () => {
         },
         {
             name: 'MySQL'
+        },{
+            name: 'sequelize'
+        },{
+            name: 'mongoose'
+        },
+        {
+            name: 'Heroku'
+        },
+        {
+            name: 'Github'
+        },
+        {
+            name: 'React'
         }
     ]
 
     return (
         <section>
-            <h2 className='title'>Resume</h2>
             <div className='box'>
-                
-                <h3>Proficiencies</h3>
+                <h3>Full stack developer, graduated from Vanderbilt University coding Bootcamp</h3>
+                <h3>Languages and tools I use: </h3>
                 <div id='skills-div' className='row'>
-                    <ul>
+                    <div className='col-2'>
+                    <ol>
                         {skills.map((skill, index) => (
                             <li className='skill' key={index}>{skill.name}</li>
                         ))}
-                    </ul>
+                    </ol>
+                    </div>
                 </div>
             </div>
         </section>
