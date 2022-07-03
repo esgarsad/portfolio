@@ -4,7 +4,7 @@ const Portfolio = () => {
     return (
         <section className='box'>
             <h2 className='title'>Portfolio</h2>
-            {/* <ProjectList /> */}
+           <ProjectList /> 
         </section>
     )
 }

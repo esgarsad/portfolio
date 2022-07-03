@@ -1,46 +1,36 @@
+:root {
+  --primary-color: whitesmoke;
+        --secondary-color: #024e76;
+        --tertiary-color: rgb(87, 182, 160);
+        --fourth: rgb(208, 218, 238);
+  --text-style: Open sans-serif;
+}
+
+#projects {
+  justify-content:space-between;
+max-width: 90%;
+  margin: 0 auto;
+}
+
+
+.project {
+  align-content: center;
+  margin: 5px 0;
+  padding: 5px;
+  border: 5px;
+ border-color: var(--secondary-color);
+    text-align: center;
+    position: relative;
+    opacity: 0.5;
+  }
+
+  .project:hover {
+    background-color: var(--secondary-color);
+    opacity: 1;
+  }
+
 @media (min-width: 0px) {
 
-    .project {
-        text-align: center;
-        position: relative;
-      }
-
-      .project-content {
-        background-color: var(--text-color);
-        justify-content: center;
-        text-align: center;
-        background-image: linear-gradient(#22c1c3,#fdbb2d);
-        display: flex;
-        align-items: center;
-      }
-      
-      .project-links {
-        text-decoration: none;
-        color: blue;
-      }
-      
-      .project_description {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: white;
-        color: #fff;
-        visibility: hidden;
-        opacity: 0;
-        transition: opacity .5s, visibility .5s;
-        background-color: var(--text-color);
-        justify-content: center;
-        text-align: center;
-        background-image: linear-gradient(#22c1c3,#fdbb2d);
-        display: flex;
-      }
-      
-      .project:hover .project_description {
-        visibility: visible;
-        opacity: 1;
-      }
       
       .project-name {
         font-size: 3rem;
