@@ -16,12 +16,10 @@ const Nav = (props) => {
   return (
     <header className='box'>
       <div className='header row'>
-      <h1 className="col-2">Edgar Nava</h1>
-          <div className='col-10'>
-       
-            <ul id='nav-links' className='row'>
-           
-            
+          <h1 className="col-2">Edgar Nava</h1>
+          <div className='col-6'>
+                   <ul id='nav-links' className='row'>
+                   
               <li className='col-2'>
                 <a
                   className={`${selectedNavLink === 'About' && 'navActive'}`}

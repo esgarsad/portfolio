@@ -20,7 +20,7 @@
 body {
   color: var(--secondary-color);
   font-family:  copper-plate old-town;
-  background-color: #ccd9e0;
+  background-color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   }
@@ -233,7 +233,7 @@ h5 {
 }
 
 hr {
-  margin: 6rem 0;
+  margin: 3rem 0;
 }
 
 .title {
