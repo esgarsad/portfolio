@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ce811e20.css",
+    "main.js": "/portfolio/static/js/main.7b5f3142.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/leisure-app.jpg": "/portfolio/static/media/leisure-app.06fa91fac988a5825ca1.jpg",
+    "static/media/edgar2021.jpg": "/portfolio/static/media/edgar2021.4f83ed46c184a6a2583d.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.805f019ebba4a1347415.jpg",
+    "static/media/weather-dashboard.jpg": "/portfolio/static/media/weather-dashboard.6081cabdc284cd232eba.jpg",
+    "static/media/shopping-smarter.jpg": "/portfolio/static/media/shopping-smarter.f6078633911480cf6dfd.jpg",
+    "static/media/run-buddy.jpg": "/portfolio/static/media/run-buddy.289695019691fe954cdf.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.ce811e20.css.map": "/portfolio/static/css/main.ce811e20.css.map",
+    "main.7b5f3142.js.map": "/portfolio/static/js/main.7b5f3142.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce811e20.css",
+    "static/js/main.7b5f3142.js"
+  ]
+}
