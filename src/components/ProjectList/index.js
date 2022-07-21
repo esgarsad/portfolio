@@ -15,8 +15,8 @@ const ProjectList = () => {
             deployed: 'https://lisavi28.github.io/leisureapp/',
         },
         {
-            name: 'run-buddy',
-            deployed: 'https://esgarsad.github.io/run-buddy/',
+            name: 'find-your-teach',
+            deployed: 'https://fierce-lake-31540.herokuapp.com/',
         },
         {
             name: 'weather-dashboard',
