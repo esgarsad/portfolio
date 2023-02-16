@@ -14,7 +14,7 @@ function AboutMe() {
          I have a special interest for full stack applications but 
         I also love to implement great designs. I will never have enough of people creativity! 
         </p>
-        <img className='col-3' src={require ("../../assets/images/edgar2021.jpg")} alt="edgar" />
+        <img className='col-3' src={require ("../../assets/images/edgar2022.jpg")} alt="edgar" />
       
       </div>
     </article>
